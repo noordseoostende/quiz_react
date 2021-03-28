@@ -1,0 +1,11 @@
+.Content h1 {
+  margin: 15px 0;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  color: azure;
+  text-transform: none;
+  text-shadow: none;
+  text-align: left;
+}

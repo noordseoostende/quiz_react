@@ -1,0 +1,88 @@
+.Answers {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Answers li {
+  padding: 10px;
+  border-left: 5px solid darkorchid;
+  background-image: linear-gradient(
+    to right,
+    #2bcdd1,
+    #00c0e2,
+    #00b0f3,
+    #009cfd,
+    #0083fa,
+    #8573f3,
+    #c25cdd,
+    #ec3ebb,
+    #ff4f8a,
+    #ff845b,
+    #ffbd3c,
+    #f5f04d
+  );
+  margin: 0 0 5px;
+}
+.Answers li:hover {
+  cursor: pointer;
+  background-image: linear-gradient(
+    to left,
+    #ccac1c,
+    #d5ab2b,
+    #ddab37,
+    #e4ab43,
+    #eaab4e,
+    #f3a051,
+    #fa9457,
+    #ff8960,
+    #ff6d73,
+    #ff4f95,
+    #ff3fc2,
+    #e04df5
+  );
+  clip-path: polygon(0% 0%, 100% 0, 90% 49%, 100% 100%, 0% 100%);
+}
+.Answers .correct,
+.Answers .correct:hover {
+  background-image: linear-gradient(
+    to top,
+    #20e951,
+    #86d200,
+    #b2b800,
+    #cf9b00,
+    #e07e00,
+    #d98500,
+    #d28b01,
+    #cb9007,
+    #abb233,
+    #88cd6c,
+    #62e3ac,
+    #4df5e9
+  );
+  border-left: 6px solid greenyellow;
+  color: white;
+}
+.Answers .incorrect,
+.Answers .incorrect:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #c11851,
+    #be2749,
+    #ba3243,
+    #b53c3d,
+    #b04439,
+    #b4443e,
+    #b84342,
+    #bc4347,
+    #c83959,
+    #d1316f,
+    #d42d8a,
+    #d132a7
+  );
+  border-left: 6px solid red;
+  color: white;
+}
+.Answers[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+}

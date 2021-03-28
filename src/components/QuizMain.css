@@ -1,0 +1,28 @@
+.NextStep {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-color: darkslateblue;
+  color: wheat;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.NextStep:hover {
+  background-color: aqua;
+}
+.NextStep[disabled] {
+  display: none;
+}
+.finalPage {
+  text-align: center;
+}
+.finalPage h1 {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 25px;
+  font-family: fantasy;
+  font-weight: bolder;
+  color: springgreen;
+  text-transform: none;
+  text-shadow: none;
+}
